@@ -7,8 +7,8 @@ using namespace autodiff;
 
 // Define functions A, Ax, Ay using double; analytical derivatives are available.
 double  A(double x, double y) { return x*y; }
-double Ax(double x, double y) { return x; }
-double Ay(double x, double y) { return y; }
+double Ax(double x, double y) { return y; }
+double Ay(double x, double y) { return x; }
 
 // Define functions B, Bx, By using double; analytical derivatives are available.
 double  B(double x, double y) { return x + y; }
